@@ -152,7 +152,7 @@ JD618.cookie = type=http-request,pattern=^https:\/\/api.m.jd.com\/client.action\
 中国移动-查话费cookie2 = type=http-request,pattern=^https:\/\/clientaccess.10086.cn\/biz-orange\/BN\/realFeeQuery\/getRealFee,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.cookie.js,requires-body=true,debug=true
 
 # > 万达电影
-万达电影cookie = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com\/user\/islogin\.api,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
+万达电影cookie = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
 
 # 其他
 # > 微博超话 (By NavePnow)
