@@ -185,7 +185,7 @@ telecomInfinity.js = script-path=https://raw.githubusercontent.com/Sunert/Script
 # 微博钱包 (By @Macsuny)
 微博钱包 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,type=http-request,pattern=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?
 # > 腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴 & @Macsuny)
-腾讯新闻 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?
+腾讯新闻 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?, requires-body=true
 # > 新浪新闻 (By @Macsuny)
 新浪 Cookie1 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,type=http-request,pattern=https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center
 新浪 Cookie2 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,type=http-request,pattern=https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn
@@ -219,16 +219,27 @@ WeChatLottery_new.js = script-path=https://raw.githubusercontent.com/nzw9314/Qua
 # > 便利蜂 (By @zZPiglet)
 便利蜂cookie = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,type=http-request,pattern=^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d
 
+# > 欧可林(By @zZPiglet)
+欧可林cookie = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js,type=http-request,pattern=^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx$
+
+# > 微信小程序 - 欧可林商城(By @zZPiglet)
+欧可林商城cookie = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js,type=http-request,pattern=^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= 
+
 # > 微信喜马拉雅 (By @makexp)
 xmly_wc.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js,type=http-request,pattern=https://m.ximalaya.com/wechat/
+
 # > 360扫地机 (By @qiaoborui)
 360.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,type=http-request,pattern=^https://app.jf.360.cn/signin/index/index
+
 # > 微博超话 (By Evilbutcher & toulanboy)
 微博超话cookie = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button),script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js,requires-body=false
+
 # > 小木虫论坛(By toulanboy)
 小木虫论坛cookie = type=http-request,pattern=^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\?action,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js,requires-body=false
+
 # > qq会员成长值签到 (By @lowking0415)
 qq会员获取cookie = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js,script-update-interval=0
+
 # > 叮咚农场养鱼 (By @iepngs)
 叮咚农场 = type=http-request,pattern=^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin,script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js
 
@@ -242,4 +253,4 @@ qq会员获取cookie = type=http-request,pattern=https:\/\/proxy.vac.qq.com\/cgi
 特仑苏cookie= type=http-request,pattern=https:\/\/xwsh\.javamall\.cn,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tls_cookie.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% appv8.qukantianxia.com, appv7.qukantx.com, xwsh.javamall.cn, api.cashtoutiao.com, user-api-prd-mx.wandafilm.com, h5.bianlifeng.com, teacherapi.zmlearn.com, clientaccess.10086.cn, maicai.api.ddxq.mobi, vip.heytea.com, webapi.qmai.cn, proapi.115.com, proxy.vac.qq.com, *.xmcimg.com, as.xiaojukeji.com, note.youdao.com,ios.baertt.com, api.m.jd.com, music.163.com, c.tieba.baidu.com, weibo.com, *.iqiyi.com, *.smzdm.com, *.v2ex.com, www.52pojie.cn, *.bilibili.com, *.feng.com, *.video.qq.com, *.acfun.cn, *.rrys2019.com, mobwsa.ximalaya.com, *.rr.tv, www.flyertea.com, wapside.189.cn:9001, sf-integral-sign-in.weixinjia.net, h5.ele.me, *.you.163.com, apk.tw, api.dongqiudi.com, *.m.163.com, user.qunar.com, yuba.douyu.com, ios.zmzapi.com, *.y.qq.com, *.csdn.net, m.ctrip.com, m.gdoil.cn, credits.bz.mgtv.com, api-takumi.mihoyo.com, act.10010.com, e.189.cn,  www.maomicd.com, wx.10086.cn, mtrace.qq.com, www.lltxt.com, weclub.ccc.cmbchina.com, promotion.waimai.meituan.com, i.meituan.com, daojia.jd.com, api-hdcj.9w9.com, xiaoshuo.qm989.com, api.everphoto.cn, group.baicizhan.com, maicai.api.ddxq.mobi, pm.m.fenqile.com, ms.jr.jd.com, nebula.kuaishou.com, api.dushu.io, node.kg.qq.com, app.nio.com, wxprdapplet.gac-nio.com, activity-1.m.duiba.com.cn, m.client.10010.com, m-bean.kaola.com, 110.43.90.61, zt.wps.cn, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, m.ximalaya.com, iphone.myzaker.com, draw.jdfcloud.com, sapi.beingfine.cn, icbc1.wlphp.com, wx.17u.cn, frodo.douban.com, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, mwegame.qq.com, api.1sapp.com, tieba.baidu.com, m.ximalaya.com, app.jf.360.cn, api.weibo.cn, pay.sc.weibo.com, api.inews.qq.com, manga.bilibili.com, newsapi.sina.cn, *.youth.cn, apiwz.midukanshu.com, www.duokan.com
+hostname = %APPEND% mall.oclean.com, appv8.qukantianxia.com, appv7.qukantx.com, xwsh.javamall.cn, api.cashtoutiao.com, user-api-prd-mx.wandafilm.com, h5.bianlifeng.com, teacherapi.zmlearn.com, clientaccess.10086.cn, maicai.api.ddxq.mobi, vip.heytea.com, webapi.qmai.cn, proapi.115.com, proxy.vac.qq.com, *.xmcimg.com, as.xiaojukeji.com, note.youdao.com,ios.baertt.com, api.m.jd.com, music.163.com, c.tieba.baidu.com, weibo.com, *.iqiyi.com, *.smzdm.com, *.v2ex.com, www.52pojie.cn, *.bilibili.com, *.feng.com, *.video.qq.com, *.acfun.cn, *.rrys2019.com, mobwsa.ximalaya.com, *.rr.tv, www.flyertea.com, wapside.189.cn:9001, sf-integral-sign-in.weixinjia.net, h5.ele.me, *.you.163.com, apk.tw, api.dongqiudi.com, *.m.163.com, user.qunar.com, yuba.douyu.com, ios.zmzapi.com, *.y.qq.com, *.csdn.net, m.ctrip.com, m.gdoil.cn, credits.bz.mgtv.com, api-takumi.mihoyo.com, act.10010.com, e.189.cn,  www.maomicd.com, wx.10086.cn, mtrace.qq.com, www.lltxt.com, weclub.ccc.cmbchina.com, promotion.waimai.meituan.com, i.meituan.com, daojia.jd.com, api-hdcj.9w9.com, xiaoshuo.qm989.com, api.everphoto.cn, group.baicizhan.com, maicai.api.ddxq.mobi, pm.m.fenqile.com, ms.jr.jd.com, nebula.kuaishou.com, api.dushu.io, node.kg.qq.com, app.nio.com, wxprdapplet.gac-nio.com, activity-1.m.duiba.com.cn, m.client.10010.com, m-bean.kaola.com, 110.43.90.61, zt.wps.cn, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, m.ximalaya.com, iphone.myzaker.com, draw.jdfcloud.com, sapi.beingfine.cn, icbc1.wlphp.com, wx.17u.cn, frodo.douban.com, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, mwegame.qq.com, api.1sapp.com, tieba.baidu.com, m.ximalaya.com, app.jf.360.cn, api.weibo.cn, pay.sc.weibo.com, api.inews.qq.com, manga.bilibili.com, newsapi.sina.cn, *.youth.cn, apiwz.midukanshu.com, www.duokan.com

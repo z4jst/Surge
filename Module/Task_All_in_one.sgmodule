@@ -370,6 +370,14 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # 进入"便利蜂"，点击"签到赚礼金"
 便利蜂 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
 
+# > 欧可林 (By @zZPiglet)
+# 进入"欧可林"并点击"活动"
+欧可林 =type=cron,cronexp=0 0 10,21 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js
+
+# > 微信小程序 - 欧可林商城 (By @zZPiglet)
+# 进入微信小程序"欧可林商城"并点击"每日任务"
+欧可林商城 =type=cron,cronexp=0 0 10,21 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js
+
 # > 微信小程序-喜马拉雅 (By @makexp)
 # 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
 微信小程序-喜马拉雅 = type=cron,cronexp=5 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js
