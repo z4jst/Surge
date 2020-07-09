@@ -8,8 +8,13 @@
 # 定时脚本
 
 [Script]
-# > 天气+生活指数+降雨提醒
-天气+生活指数+降雨提醒= type=cron,cronexp=0 0-21/3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/minute_forecast.js
+# 定时脚本
+# 彩云天气 (By Peng-YM)
+# 打开手机设置 > 隐私 > 定位服务
+# (1) 打开定位服务
+# (2) 选择天气，设置永远允许天气访问位置信息，并允许使用精确位置。
+# (3) 打开box.js设置API token即可。
+彩云天气 = type=cron,cronexp=0 0-21/3 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
 
 # > App价格版本监控
 # 需要appid
@@ -391,7 +396,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 
 # > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-东东萌宠
-京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
+京东萌宠= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
 
 # > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-宠汪汪
