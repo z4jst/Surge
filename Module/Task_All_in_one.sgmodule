@@ -357,7 +357,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 
 # > 115 (By @zZPiglet)
 # 进入"115"并摇一摇
-115 = type=cron,cronexp=1 0 * * *,script-path=script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
+115 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
 
 # > 喜茶 (By @zZPiglet)
 # 进入"喜茶GO"小程序，点击"我的"，进入"任务中心"
